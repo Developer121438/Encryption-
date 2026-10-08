@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption Tool</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="welcome">Welcome!</div>
+    <details class="main">
+    <summary>
+        Know more about this App
+    </summary>
+    <details>
+        <summary>Encryption algorithms used by this tool</summary>
+        <ul>
+           <li><p>AES-GCM</p></li>
+           <li> <p>New algorithms will be added later</p></li>
+        </ul>
+    </details>
+    </details>
+    <div class="container">
+        <h1>Encryption Tool</h1>
+        <div class="range">
+            <div class="fill"></div>
+            <span>0%</span>
+        </div>
+        <button id="downloadBtn" hidden>Download File</button>
+        <input type="password" name="password" id="secret" required placeholder="Enter your password">
+        <input type="file" name="file" id="document">
+        <button id="en-Btn">Encrypt</button>
+        <button id="de-Btn">Decrypt</button>
+    </div>
+    <script src="encrypt.js" defer></script>
+</body>
+</html>

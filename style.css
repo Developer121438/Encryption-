@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+        background: url("usgs-AQ9-jKmebjM-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52vw;
+    height: 85vh;
+    background: rgba(119, 138, 111, 0.9);
+    border: 3px solid rgb(246, 246, 248);
+    border-radius: 10px;
+    box-shadow: 0  0 25px rgb(250, 247, 247);
+    margin: 40px auto 100px auto;
+    opacity: 1;
+}
+
+h1{
+    position:absolute;
+    top: 12%;
+    left: 31%;
+    color:#fff;
+    text-shadow: 4px 4px #1a1717 ;
+    text-transform:uppercase;
+    letter-spacing: 25%;
+    background:linear-gradient(to right, #444,#555,#777) ;
+    width: 38%;
+    box-shadow:2px 2px #443a3a;
+    text-align: center;
+}
+
+#document{
+    display: block;
+    position: absolute;
+    top: 63%;
+    left: 30%;
+    cursor: pointer;
+    background: #dba9a9 ;
+    width: 15.5%;
+    border: 2px outset black;
+    color: #fff;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#en-Btn{
+  position: relative;
+  top: 40%;
+  right: -25%;
+  opacity: 0.8;
+  background-color: bisque;
+  color:#21046e;
+  padding: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 15%;
+  padding: 5px;
+}
+
+#de-Btn{
+  position: relative;
+  top: 40%;
+  right: -30%;
+  opacity: 0.8;
+  background-color: bisque;
+  color:#21046e;
+  padding: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 15%;
+}
+
+#en-Btn:hover,#de-Btn:hover{
+    background-color: rgb(15, 86, 62);
+    color:rgba(247, 242, 242, 0.927);
+    font-size: 1rem;
+    opacity: 1;
+}
+
+.range{
+    position:absolute;
+    top: 35%;
+    left: 34%;
+    width: 32%;
+    height: 5%;
+    border: 2px solid rgb(255, 54, 54);
+    border-radius: 0;
+    text-align: center;
+}
+
+.range span{
+ position: absolute;
+ top: 2px;
+ left:50%;
+ transform: translateX(-50%);
+ text-align: center;
+ color:#777;
+ font-size: 1.2rem;
+ text-shadow: -1px -1px #291a1a;
+}
+
+.welcome {
+    position: absolute;
+    left: 41%;
+    top: 2%;
+    color: #110808;
+    font-size: 1.2rem;
+    background: linear-gradient(
+        to right,
+        #eee,
+        rgba(65, 68, 243, 0.933),
+        rgb(102, 243, 37)
+    );
+    border: 1px solid #fff;
+    width: 180px;
+    padding: 6px;
+    letter-spacing: 2px;
+    text-align: center;
+    z-index: 100;
+
+    /* Animation */
+    transform-origin: center;
+    animation: welcomeRotate 1.5s ease-in-out;
+    
+    /* Transition */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+@keyframes welcomeRotate {
+
+    0% {
+        transform: rotate(-180deg) scale(0);
+        opacity: 0;
+    }
+
+    60% {
+        transform: rotate(30deg) scale(1.1);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+.welcome:hover {
+    transform: rotate(5deg) scale(1.08);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+#secret{
+    position:absolute;
+    top: 69%;
+    left: 30%;
+    padding: 5px;
+    width: 15.5%;
+    border-radius: 5px;
+    background-color: rgb(138, 112, 112);
+}
+
+#secret::placeholder{
+    color:rgb(238, 245, 245);
+    font-style: italic ;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: lighter;
+     letter-spacing: 2px;
+}
+
+.fill{
+    position: inherit;
+    max-width: 374px;
+    width: 0%;
+    height: 23px;
+    background-color: rgb(128, 237, 109);
+    border-radius: 0;
+}
+
+.main{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    color: #edfa04;
+    font-size: 1.2em;
+    font-style:italic;
+    font-weight: 1px;
+}
+
+#downloadBtn {
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    width: 16%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: bisque;
+    color: #21046e;
+    cursor: pointer;
+}
+
+#downloadBtn:hover {
+    background-color: rgb(15, 86, 62);
+    color: white;
+}
