@@ -3,8 +3,7 @@
 A browser-based file encryption and decryption application built with **HTML, CSS, and JavaScript**. The app allows users to select files, protect them with a password, encrypt or decrypt them, and download the processed files.
 
 ## 🌐 Live Demo
-
-**[View Live Demo](#)**
+https://developer121438.github.io/Encryption/
 
 > Replace `#` with your GitHub Pages URL after deploying the project.
 
