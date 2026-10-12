@@ -1,66 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-        background: url("usgs-AQ9-jKmebjM-unsplash.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    
-    }
-
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 52vw;
-    height: 85vh;
-    background: rgba(119, 138, 111, 0.9);
-    border: 3px solid rgb(246, 246, 248);
-    border-radius: 10px;
-    box-shadow: 0  0 25px rgb(250, 247, 247);
-    margin: 40px auto 100px auto;
-    opacity: 1;
+body {
+  background: url("usgs-AQ9-jKmebjM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-h1{
-    position:absolute;
-    top: 12%;
-    left: 31%;
-    color:#fff;
-    text-shadow: 4px 4px #1a1717 ;
-    text-transform:uppercase;
-    letter-spacing: 25%;
-    background:linear-gradient(to right, #444,#555,#777) ;
-    width: 38%;
-    box-shadow:2px 2px #443a3a;
-    text-align: center;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52vw;
+  height: 85vh;
+  background: rgba(119, 138, 111, 0.9);
+  border: 3px solid rgb(246, 246, 248);
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgb(250, 247, 247);
+  margin: 40px auto 100px auto;
+  opacity: 1;
 }
 
-#document{
-    display: block;
-    position: absolute;
-    top: 63%;
-    left: 30%;
-    cursor: pointer;
-    background: #dba9a9 ;
-    width: 15.5%;
-    border: 2px outset black;
-    color: #fff;
-    font-style: italic;
-    font-weight: lighter;
+h1 {
+  position: absolute;
+  top: 12%;
+  left: 31%;
+  color: #fff;
+  text-shadow: 4px 4px #1a1717;
+  text-transform: uppercase;
+  letter-spacing: 25%;
+  background: linear-gradient(to right, #444, #555, #777);
+  width: 38%;
+  box-shadow: 2px 2px #443a3a;
+  text-align: center;
 }
 
-#en-Btn{
+#document {
+  display: block;
+  position: absolute;
+  top: 63%;
+  left: 30%;
+  cursor: pointer;
+  background: #dba9a9;
+  width: 15.5%;
+  border: 2px outset black;
+  color: #fff;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+#en-Btn {
   position: relative;
   top: 40%;
   right: -25%;
   opacity: 0.8;
   background-color: bisque;
-  color:#21046e;
+  color: #21046e;
   padding: 4px;
   border-radius: 5px;
   cursor: pointer;
@@ -68,150 +67,551 @@ h1{
   padding: 5px;
 }
 
-#de-Btn{
+#de-Btn {
   position: relative;
   top: 40%;
   right: -30%;
   opacity: 0.8;
   background-color: bisque;
-  color:#21046e;
+  color: #21046e;
   padding: 4px;
   border-radius: 5px;
   cursor: pointer;
   width: 15%;
 }
 
-#en-Btn:hover,#de-Btn:hover{
-    background-color: rgb(15, 86, 62);
-    color:rgba(247, 242, 242, 0.927);
-    font-size: 1rem;
-    opacity: 1;
+#en-Btn:hover,
+#de-Btn:hover {
+  background-color: rgb(15, 86, 62);
+  color: rgba(247, 242, 242, 0.927);
+  font-size: 1rem;
+  opacity: 1;
 }
 
-.range{
-    position:absolute;
-    top: 35%;
-    left: 34%;
-    width: 32%;
-    height: 5%;
-    border: 2px solid rgb(255, 54, 54);
-    border-radius: 0;
-    text-align: center;
+.range {
+  position: absolute;
+  top: 35%;
+  left: 34%;
+  width: 32%;
+  height: 5%;
+  border: 2px solid rgb(255, 54, 54);
+  border-radius: 0;
+  text-align: center;
 }
 
-.range span{
- position: absolute;
- top: 2px;
- left:50%;
- transform: translateX(-50%);
- text-align: center;
- color:#777;
- font-size: 1.2rem;
- text-shadow: -1px -1px #291a1a;
+.range span {
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #777;
+  font-size: 1.2rem;
+  text-shadow: -1px -1px #291a1a;
 }
 
 .welcome {
-    position: absolute;
-    left: 41%;
-    top: 2%;
-    color: #110808;
-    font-size: 1.2rem;
-    background: linear-gradient(
-        to right,
-        #eee,
-        rgba(65, 68, 243, 0.933),
-        rgb(102, 243, 37)
-    );
-    border: 1px solid #fff;
-    width: 180px;
-    padding: 6px;
-    letter-spacing: 2px;
-    text-align: center;
-    z-index: 100;
+  position: absolute;
+  left: 41%;
+  top: 2%;
+  color: #110808;
+  font-size: 1.2rem;
+  background: linear-gradient(
+    to right,
+    #eee,
+    rgba(65, 68, 243, 0.933),
+    rgb(102, 243, 37)
+  );
+  border: 1px solid #fff;
+  width: 180px;
+  padding: 6px;
+  letter-spacing: 2px;
+  text-align: center;
+  z-index: 100;
 
-    /* Animation */
-    transform-origin: center;
-    animation: welcomeRotate 1.5s ease-in-out;
-    
-    /* Transition */
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  /* Animation */
+  transform-origin: center;
+  animation: welcomeRotate 1.5s ease-in-out;
+
+  /* Transition */
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
 }
 
 @keyframes welcomeRotate {
+  0% {
+    transform: rotate(-180deg) scale(0);
+    opacity: 0;
+  }
 
-    0% {
-        transform: rotate(-180deg) scale(0);
-        opacity: 0;
-    }
+  60% {
+    transform: rotate(30deg) scale(1.1);
+    opacity: 0.8;
+  }
 
-    60% {
-        transform: rotate(30deg) scale(1.1);
-        opacity: 0.8;
-    }
-
-    100% {
-        transform: rotate(0deg) scale(1);
-        opacity: 1;
-    }
+  100% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
 }
 
 .welcome:hover {
-    transform: rotate(5deg) scale(1.08);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+  transform: rotate(5deg) scale(1.08);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
 }
 
-#secret{
-    position:absolute;
-    top: 69%;
-    left: 30%;
-    padding: 5px;
-    width: 15.5%;
-    border-radius: 5px;
-    background-color: rgb(138, 112, 112);
+#secret {
+  position: absolute;
+  top: 69%;
+  left: 30%;
+  padding: 5px;
+  width: 15.5%;
+  border-radius: 5px;
+  background-color: rgb(138, 112, 112);
 }
 
-#secret::placeholder{
-    color:rgb(238, 245, 245);
-    font-style: italic ;
-    text-align: center;
-    font-size: 0.9rem;
-    font-weight: lighter;
-     letter-spacing: 2px;
+#secret::placeholder {
+  color: rgb(238, 245, 245);
+  font-style: italic;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
 }
 
-.fill{
-    position: inherit;
-    max-width: 374px;
-    width: 0%;
-    height: 23px;
-    background-color: rgb(128, 237, 109);
-    border-radius: 0;
+.fill {
+  position: inherit;
+  max-width: 374px;
+  width: 0%;
+  height: 23px;
+  background-color: rgb(128, 237, 109);
+  border-radius: 0;
 }
 
-.main{
-    position: absolute;
-    top: 30%;
-    left: 1%;
-    color: #edfa04;
-    font-size: 1.2em;
-    font-style:italic;
-    font-weight: 1px;
+.main {
+  position: absolute;
+  top: 30%;
+  left: 1%;
+  color: #edfa04;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 1px;
 }
 
 #downloadBtn {
-    position: absolute;
-    top: 42%;
-    left: 42%;
-    width: 16%;
-    padding: 7px;
-    border: none;
-    border-radius: 5px;
-    background-color: bisque;
-    color: #21046e;
-    cursor: pointer;
+  position: absolute;
+  top: 42%;
+  left: 42%;
+  width: 16%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: bisque;
+  color: #21046e;
+  cursor: pointer;
 }
 
 #downloadBtn:hover {
-    background-color: rgb(15, 86, 62);
-    color: white;
+  background-color: rgb(15, 86, 62);
+  color: white;
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN - ALL SCREEN SIZES
+========================================== */
+
+/* General improvements */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-position: center;
+  background-attachment: scroll;
+  overflow-x: hidden;
+}
+
+/* Make form elements responsive */
+input,
+button {
+  max-width: 100%;
+  font-size: 1rem;
+}
+
+/* ==========================================
+   LARGE SCREENS - DESKTOP
+========================================== */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 52%;
+    max-width: 950px;
+    min-height: 650px;
+    height: auto;
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+
+  #document,
+  #secret {
+    min-width: 180px;
+  }
+
+  #en-Btn,
+  #de-Btn {
+    min-width: 100px;
+  }
+}
+
+/* ==========================================
+   TABLETS - 769px TO 1199px
+========================================== */
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  .container {
+    width: 75%;
+    height: 80vh;
+    min-height: 550px;
+    margin: 50px auto;
+  }
+
+  h1 {
+    top: 13%;
+    left: 20%;
+    width: 60%;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+
+  .welcome {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .range {
+    left: 25%;
+    width: 50%;
+    top: 35%;
+  }
+
+  #document {
+    left: 25%;
+    top: 62%;
+    width: 25%;
+    padding: 7px;
+  }
+
+  #secret {
+    left: 25%;
+    top: 70%;
+    width: 25%;
+  }
+
+  #en-Btn,
+  #de-Btn {
+    width: 18%;
+    padding: 8px;
+  }
+
+  #downloadBtn {
+    left: 40%;
+    width: 20%;
+  }
+
+  .main {
+    font-size: 1rem;
+  }
+}
+
+/* ==========================================
+   MOBILE DEVICES - 481px TO 768px
+========================================== */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  .container {
+    position: relative;
+    width: 95%;
+    height: auto;
+    min-height: 650px;
+    margin: 40px auto;
+    padding: 30px 15px;
+  }
+
+  h1 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+
+  .welcome {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    margin-left: -90px;
+    font-size: 1rem;
+  }
+
+  .range {
+    top: 35%;
+    left: 10%;
+    width: 80%;
+    height: 35px;
+  }
+
+  .range span {
+    font-size: 1rem;
+  }
+
+  #document {
+    top: 55%;
+    left: 15%;
+    width: 70%;
+    padding: 10px;
+  }
+
+  #secret {
+    top: 65%;
+    left: 15%;
+    width: 70%;
+    padding: 10px;
+  }
+
+  #secret::placeholder {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+
+  #en-Btn {
+    position: absolute;
+    top: 78%;
+    left: 15%;
+    right: auto;
+    width: 32%;
+    padding: 10px;
+  }
+
+  #de-Btn {
+    position: absolute;
+    top: 78%;
+    left: 53%;
+    right: auto;
+    width: 32%;
+    padding: 10px;
+  }
+
+  #downloadBtn {
+    top: 88%;
+    left: 25%;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .main {
+    top: 25%;
+    left: 5%;
+    font-size: 1rem;
+  }
+
+  .fill {
+    height: 30px;
+  }
+}
+
+/* ==========================================
+   SMALL MOBILE DEVICES - UP TO 480px
+========================================== */
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+    background-position: center;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 620px;
+    margin: 30px auto;
+    padding: 20px 10px;
+    border-width: 2px;
+  }
+
+  h1 {
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    width: 90%;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    padding: 10px 5px;
+    line-height: 1.5;
+  }
+
+  .welcome {
+    top: 3%;
+    left: 50%;
+    margin-left: -80px;
+    width: 160px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    padding: 8px;
+  }
+
+  .range {
+    top: 36%;
+    left: 5%;
+    width: 90%;
+    height: 35px;
+  }
+
+  .range span {
+    font-size: 0.9rem;
+  }
+
+  .fill {
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .main {
+    top: 27%;
+    left: 5%;
+    width: 90%;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  #document {
+    position: absolute;
+    top: 54%;
+    left: 10%;
+    width: 80%;
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+
+  #secret {
+    position: absolute;
+    top: 64%;
+    left: 10%;
+    width: 80%;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  #secret::placeholder {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+  }
+
+  #en-Btn {
+    position: absolute;
+    top: 77%;
+    left: 10%;
+    right: auto;
+    width: 38%;
+    padding: 10px 5px;
+    font-size: 0.85rem;
+  }
+
+  #de-Btn {
+    position: absolute;
+    top: 77%;
+    left: 52%;
+    right: auto;
+    width: 38%;
+    padding: 10px 5px;
+    font-size: 0.85rem;
+  }
+
+  #downloadBtn {
+    position: absolute;
+    top: 88%;
+    left: 15%;
+    width: 70%;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  #en-Btn:hover,
+  #de-Btn:hover {
+    font-size: 0.85rem;
+  }
+}
+
+/* ==========================================
+   EXTRA SMALL PHONES - UP TO 320px
+========================================== */
+
+@media (max-width: 320px) {
+  .container {
+    min-height: 600px;
+  }
+
+  h1 {
+    font-size: 0.95rem;
+  }
+
+  .welcome {
+    font-size: 0.8rem;
+  }
+
+  #en-Btn,
+  #de-Btn {
+    font-size: 0.75rem;
+  }
+
+  #secret::placeholder {
+    font-size: 0.65rem;
+  }
+}
+
+/* ==========================================
+   ACCESSIBILITY & TOUCH DEVICES
+========================================== */
+
+button {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #21046e;
+  outline-offset: 3px;
+}
+
+/* Reduce animations for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .welcome {
+    animation: none;
+    transition: none;
+  }
+
+  button {
+    transition: none;
+  }
 }
