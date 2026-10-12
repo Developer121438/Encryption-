@@ -6,9 +6,10 @@
 }
 
 body {
-  background: url("usgs-AQ9-jKmebjM-unsplash.jpg");
+  background: url("cryptoimage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  object-fit: cover;
 }
 
 .container {
@@ -191,7 +192,7 @@ h1 {
 
 .main {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 1%;
   color: #edfa04;
   font-size: 1.2em;
